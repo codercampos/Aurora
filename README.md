@@ -11,5 +11,6 @@ Please, Do not share this without my conscent.
 |--|--|
 | iOS | ✅ |
 | Android | ✅ |
-| Windows | ✅ |
-
+| Windows | ❌ |
+| Web | ✅ |
+| API | ✅ |
