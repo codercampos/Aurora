@@ -1,15 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 25.0.1706.1
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aurora.Mobile", "Aurora.Mobile\Aurora.Mobile.csproj", "{387216BA-8888-4DF0-BF8A-4D20644F7913}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aurora.Mobile", "Aurora.Mobile\Aurora.Mobile.csproj", "{387216BA-8888-4DF0-BF8A-4D20644F7913}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aurora.Web", "Aurora.Web\Aurora.Web.csproj", "{358C4DB0-F339-4ADB-9898-A1A6E92D053A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aurora.Web", "Aurora.Web\Aurora.Web.csproj", "{358C4DB0-F339-4ADB-9898-A1A6E92D053A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aurora.Service", "Aurora.Service\Aurora.Service.csproj", "{F4F92964-A689-4925-94BB-A4FE4F46DC9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aurora.Service", "Aurora.Service\Aurora.Service.csproj", "{F4F92964-A689-4925-94BB-A4FE4F46DC9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aurora.Core", "Aurora.Core\Aurora.Core.csproj", "{CC080FCE-8238-466C-A679-E10DDAB7137F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aurora.Core", "Aurora.Core\Aurora.Core.csproj", "{CC080FCE-8238-466C-A679-E10DDAB7137F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aurora.Migrations", "Aurora.Migrations\Aurora.Migrations.csproj", "{8461DE9E-0FAB-44A5-9B5E-328B41875700}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{CC080FCE-8238-466C-A679-E10DDAB7137F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC080FCE-8238-466C-A679-E10DDAB7137F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC080FCE-8238-466C-A679-E10DDAB7137F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8461DE9E-0FAB-44A5-9B5E-328B41875700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8461DE9E-0FAB-44A5-9B5E-328B41875700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8461DE9E-0FAB-44A5-9B5E-328B41875700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8461DE9E-0FAB-44A5-9B5E-328B41875700}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
